@@ -1,0 +1,357 @@
+.page_container {
+    
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.topbar {
+    width: 1100px;
+    background-color: white;
+    position: fixed;
+    padding-bottom: 5px;
+}
+
+.topbar a {
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;    
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar .top-links a {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    
+    color: #a0a09f;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.block3 {
+
+    line-height: 25px;
+    margin-top: 5px;
+    color: #48277C;
+    padding-top: 8px;
+    margin-bottom: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bolder;
+    font-variant: normal;
+}
+.block4 {
+    color: #48277C;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 13px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left:-50px;
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+}
+
+.symbol{
+    position: relative;
+    top: -2px;
+}
+.box1 .card {
+    background: white;
+    /* color: black; */
+    width: 430px;
+    height: 210px;
+    display: block;
+    margin: 270px auto;
+    padding: 35px;
+}
+.leftfloat{
+    color: #48277C;
+    font-size: 20px;
+    font-family: 'GFS Didot', serif;
+    font-size: 1.4em;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: lighter;
+}
+.pic {
+    float: left;
+    padding: 15px 100px 0 100px;
+    
+}
+
+.top-links {
+    float: right;
+    
+    color: #a0a09f;
+    padding-right: 150px;
+    padding-top: 15px;
+    
+}
+
+.face {
+    padding-top: 16px;
+    margin-right: 30px;
+    object-fit: cover;
+    width: 170px;
+    height: 190px;
+}
+
+.card-align p {
+    text-align: left;
+}
+
+.block1 {
+    font-family: 'GFS Didot', serif;
+    font-size: 14px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400px;
+    color: #48277C;
+    margin-bottom: 2.5px;
+}
+
+.block2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    color: #48277C;
+    font-size: 44px;
+    margin-top: 2.5px;
+    margin-bottom: 0px;
+}
+
+.box1 {
+    height: 750px;
+    background-image: url("http://csci571.com/hw/hw3/images/coffee2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.box3 {
+    background-image: url("http://csci571.com/hw/hw3/images/coffee1.jpg");
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+.box4 {
+    background-color: #48277C;
+    color: white;
+    padding-left: 150px;
+    padding-right: 0px;
+    padding-top: 140px;
+    padding-bottom: 250px;
+    height: 120px;
+    overflow-wrap: break-word;
+}
+
+.box5 {
+    background-color: white;
+    height: 450px;
+    padding-top : 40px;
+}
+
+.layout th {
+    width: 33%;
+    text-align: left;
+    padding-left: 30px;
+    height: 600px;
+    border: 0px solid;
+}
+
+.twocol-layout th {
+    width: 50%;
+    text-align: left;
+    padding: 100px 20px 20px 0;
+    border: 0px solid;
+}
+
+form input {
+    width: 80%;
+    height: 20px;
+    border: 1px solid #48277C;
+    margin: 5px;
+}
+
+.contact-me {
+    margin-top: -110px;
+    margin-left:115px;
+    color: #48277C;
+}
+.left{
+    margin-top:-75px;
+    margin-left:115px;
+    color: #48277C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    line-height: 16px;
+}
+.formtextbox{
+    font-family: 'Raleway', sans-serif;
+    margin-top:0px;
+    padding-left: 10px; 
+}
+
+.textbox{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+}
+::placeholder{
+    color: #48277C;
+    opacity: 1;
+}
+.formc{
+    padding-left: 9px;
+    font-size: 38px;
+    font-weight: normal;
+}
+
+.formcontent{
+    padding-left: 8px;
+    line-height: 17px;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400px;
+    
+}
+button {
+    background-color: #48277C;
+    color: white;
+    font-family: sans-serif;
+    margin: 5px 17% 5px 5px;
+    padding: 7px 15px 7px 15px;
+    border: 0 solid;
+    float: right;
+}
+.formbutton{
+    font-size: 17px;
+    font-family: serif;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 400px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.col1 {
+    background-color: #5098BC;
+}
+
+.col2 {
+    background-color: #48277C;
+}
+
+.col3 {
+    background-color: #9A69C3;
+}
+
+.content {
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-right: 100px;
+}
+
+.centered {
+  position: absolute;
+  background: white;
+  width: 600px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+}
+
+
+.theader{
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500px;
+    font-variant: normal;
+}
+.twocol-layout {
+    width:100%;
+}
+
+.box4header{
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 13px;
+    margin-left: -8px;
+    font-weight: bolder;
+    
+}
+
+.layout {
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: normal;
+    color: white;
+}
+
+
+.tdata{
+    font-family: Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#line{
+    border: 1px solid;
+    background-color: #48277C;
+    display: block;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1px;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 72px;
+    height: 3.5px;
+}
+
+.formheader{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 13.5px;
+    font-weight: bolder;
+}
+.box4content{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 550px;
+    font-size: 40px;
+}
